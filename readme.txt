@@ -1,0 +1,1 @@
+esto es un ejercicio para agregar despues de init de git y hacer un git add

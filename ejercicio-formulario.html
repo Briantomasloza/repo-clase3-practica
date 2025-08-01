@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Formulario</title>
+</head>
+<body>
+
+    <form >
+            <!-- nombre del usuario --> 
+             <!-- for y id tienen el mismo nombre porque asi los conecto, los referencio  -->  
+        <div>
+            <label for="username">Escribe tu nombre</label>
+            <input type="text" id="username" required placeholder="Brian Loza">
+        </div>
+
+             <!-- email del usuario -->
+            <!-- required es para que sea obligatorio completar el campo -->
+        <div>
+            <label for="password">Escribe tu mail</label>
+            <input type="password" id="password" required placeholder="example@gmail.com">
+        </div>
+
+             <!-- contraseña del usuario -->
+            <!-- minlength es para la cantidad de caracteres minimo   -->
+        <div>
+            <label for="password">Escribe tu contraseña</label>
+            <input type="password" id="password" minlength="8">
+            <button type="button">Mostrar</button>
+        </div>
+
+        <div>
+            <label for="plan">Seleccione su plan</label>
+            <select id="plan">
+                    <option value="free">Free</option>
+                    <option value="basic">Basico</option>
+                    <option value="premium">Premium</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="msj">Escribe un mensaje</label>
+            <textarea id="msj" rows="10" cols="10" placeholder="Hola" required maxlength="100"></textarea>
+        </div>
+
+
+             <!-- boton -->
+
+            <button type="submit"></button>
+    
+    </form>
+
+    
+</body>
+</html>
